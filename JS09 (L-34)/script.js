@@ -75,35 +75,28 @@
 // } else if (pass === real) console.log("Access Grated ✅") 
 //   else console.error ("Access Denied , Try Again")
 
-let real = "JavaS"
-let count = 0
+// let real = "JavaS"
+// let count = 0
 
-while (count<3) { 
-    let pass = prompt ("ENTER PASSWORD")
-    if (pass === real ) {
-        console.log("Access Granted ✅");
-        break;
-    }
-     else if (count === 0) {
-        console.log("Wrong Password ❌, 2 Attempts Left")
-        count++
-    } else if (count === 1) {
-        let pass2 = prompt ("ENTER PASSWORD")
-        if (pass2 === real ) {
-            console.log("Access Granted ✅");
-            break;
-        }
-        else {console.log ("Wrong Password ❌, 1 Attempt Left")
-        count++}
-    } else if (count === 2 ) {
-        let pass3 = prompt ("ENTER PASSWORD")
-        if (pass3 === real ) {
-            console.log("Access Granted ✅");
-            break;
-        }
-        else {console.log ("Account Locked 🔒")
-        count++}
-    }
-    
-}
+// while (count<3) { 
+//     let pass = prompt ("ENTER PASSWORD")
+//     if (pass === real ) {
+//         console.log("Access Granted ✅");
+//         break;
+//     } else {
+//         count++ 
+//         if (count === 1) { 
+        
+//             console.log ("Wrong Password ❌, 2 Attempts left")
+//         } 
+//     }
 
+
+// }
+
+let real = "JavaSC"
+let count=0;
+
+while (count<3)
+    console.log(j)
+    j++
